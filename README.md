@@ -63,7 +63,7 @@ gulp
 &nbsp;
 
 ---
-### "Cart of watches" is an application written in "JavaScript" using "LocalStorage" browser and using "Classes" made available in "ES6" edition. This application using "OOP" allows you to add items to the cart, increase, decrease or remove them from the cart, while counting their amount and quantity.
+### "Cart of Watches" is an application written in "JavaScript" using "LocalStorage" browser and using "Classes" made available in "ES6" edition. This application using "OOP" allows you to add items to the cart, increase, decrease or remove them from the cart, while counting their amount and quantity.
 
 &nbsp;
 ### How it works? In the catalog of goods you choose the watch you like, add it to the basket. At the same time, an object with the goods that you added to the cart is created in the user's browser, in the local storage. The cart itself retrieves your items and quantities from the browser's local storage and displays them on the page.
@@ -119,7 +119,7 @@ gulp
 ### Now let's take a closer look.
 
 &nbsp;
-### The operation of the "Cart of watches" application consists of two parts: the first part draws products on the page and adds them to the cart; the second part draws the basket itself with the goods added to it and can carry out operations: adding the quantity of the desired product, reducing its quantity and deleting the position of the product.
+### The operation of the "Cart of Watches" application consists of two parts: the first part draws products on the page and adds them to the cart; the second part draws the basket itself with the goods added to it and can carry out operations: adding the quantity of the desired product, reducing its quantity and deleting the position of the product.
 
 &nbsp;
 ### First, consider the part with the output of the product and adding to the cart.
