@@ -8,10 +8,10 @@
 ## Application has two versions: "development" - development version; "production" - version with finished project.
 
 &nbsp;
-## If you want to see how I developed the application, how I worked with the preprocessor and what plugins I used to build the project, then select the "development" version.
+## If you want to see how I developed the application, how I worked with the preprocessor and what plugins I used for the project builder, then select the "development" version from the "development" branch.
 
 &nbsp;
-## If you just want to see how the application works, test and view the code without installing additional plugins, etc., then choose the "production" version with a ready-made project.
+## If you just want to see how the application works, test and see the code without installing additional plugins, etc., then choose the "production" version with a ready-made project from the "production" branch.
 
 &nbsp;
 # **Attention!**
@@ -21,11 +21,29 @@
 ## If you want to test the "development" version of the application, you will need:
 
 &nbsp;
-### **1. `Install the package manager "`[Node.js](https://nodejs.org/)`" from the official site or another equivalent`;**
-### **2. `Open terminal in your code editor and type command`;**
+### **1. `First you need to install `"[NodeJS](https://nodejs.org/)"` on your computer. To check its presence on your PC, enter the command in the terminal:`**
+
 ```
-npm i
+node --version 
 ```
+
+```
+npm --version
+```
+
+### `If the commands work and display versions, then "Node" and "NPM" are already installed;`
+### **2. `Before installing packages, you must first install "Gulp" globally on your system:`**
+
+```
+npm i --global gulp-cli
+```
+
+### `And then from the folder with "gulpfile.js" install all the plugins from "package.json" using the command in your terminal:`
+
+```
+npm i -D
+```
+
 ### **3. `After installing all the packages, you can run the application with the command`;**
 ```
 gulp
