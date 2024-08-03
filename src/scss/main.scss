@@ -1,4 +1,27 @@
-//================== default styles ====================
+/*=================== Default styles ====================*/
+
+html,
+body {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+html body ._container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+/*=======================================================*/
+
+
+/*==================== Main styles ======================*/
 
 * {
   margin: 0;
@@ -48,12 +71,7 @@ h6 {
   margin: 0;
 }
 
-//======================================================
-
-
-//====================== styles ========================
-
-//---------------------- header ------------------------
+/*---------------------- Header -------------------------*/
   
 .header {
   background-color: rgb(0, 0, 0);
@@ -74,11 +92,12 @@ h6 {
   }
 }
 
-//------------------------------------------------------
+/*-------------------------------------------------------*/
 
-//----------------------- main -------------------------
+/*----------------------- Main --------------------------*/
 
 .main {
+  flex: 1 0 auto;
   background: url('../img/wrist-watches-img.webp') center center no-repeat;
   background-size: cover;
   padding: 15px 0;
@@ -268,9 +287,9 @@ h6 {
 }
 
 
-//------------------------------------------------------
+/*-------------------------------------------------------*/
 
-//---------------------- footer ------------------------
+/*---------------------- Footer -------------------------*/
 
 .footer {
   position: sticky;
@@ -320,153 +339,6 @@ h6 {
   }
 }
 
-//------------------------------------------------------
+/*-------------------------------------------------------*/
 
-//======================================================
-
-
-//====================== media =========================
-
-//----------------------- main -------------------------
-
-@media (min-width: 992px) {
-  .item-goods {
-    &__btn {
-      button {
-        background-color: rgb(0, 0, 205);
-        color: rgb(255, 255, 255);
-        border-radius: 0;
-        transition: all .3s ease;
-          &:hover {
-            background-color: rgb(16, 212, 46);
-            box-shadow: 2px 2px 10px rgba(0, 0, 0 ,.24);
-            border-radius: 30px;
-            transition: all .3s ease;
-          }
-      }
-    }
-  }
-  .cell {
-    &__button {
-      background-color: rgba(255, 0, 0, .7);
-      color: rgba(255, 255, 255, .8);
-      transition: all .3s ease;
-      &:hover {
-        background-color: rgb(255, 0, 0);
-        color: rgb(255, 255, 255);
-        transition: all .3s ease;
-      }
-    }
-    &__minus {
-      background-color: rgba(255, 162, 20, .7);
-      color: rgba(255, 255, 255, .8);
-      transition: all .3s ease;
-      &:hover {
-        background-color: rgb(255, 162, 20);
-        color: rgb(255, 255, 255);
-        transition: all .3s ease;
-      }
-    }
-    &__plus {
-      background-color: rgba(16, 212, 46, .7);
-      color: rgba(255, 255, 255, .8);
-      transition: all .3s ease;
-      &:hover {
-        background-color: rgb(16, 212, 46);
-        color: rgb(255, 255, 255);
-        transition: all .3s ease;
-      }
-    }
-  }
-}
-
-@media (max-width: 992px) {
-  .goods {
-    &__item {
-      flex: 0 0 47%;
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  .goods {
-    &__item {
-      flex: 0 0 70%;
-    }
-  }
-  .cart-out {
-    &__table {
-      tbody {
-        width: 70%;
-      }
-    }
-  }
-  .cart {
-    &__row {
-      flex-wrap: wrap;
-      padding: 5px;
-    }
-    ._sticky {
-      .cart-cells__ftotal {
-        justify-content: center;
-      }
-    }
-  }
-  .cart-cells {
-    &__delete {
-      flex: 0 0 100%;
-      justify-content: flex-end;
-    }
-    &__img {
-      flex: 0 0 100%;
-    }
-    &__name {
-      flex: 0 0 100%;
-      margin: 20px 0px;
-    }
-    &__minus {
-      flex: 0 0 40%;
-      justify-content: flex-end;
-    }
-    &__count {
-      flex: 0 0 20%;
-    }
-    &__plus {
-      flex: 0 0 40%;
-      justify-content: flex-start;
-    }
-    &__total {
-      flex: 0 0 100%;
-      margin: 20px 0px 15px 0px;
-    }
-  }
-}
-
-@media (max-width: 576px) {
-  .goods {
-    &__item {
-      flex: 0 0 100%;
-    }
-  }
-  .cart-out {
-    &__table {
-      tbody {
-        width: 80%;
-      }
-    }
-  }
-}
-
-@media (max-width: 400px) {
-  .cart-out {
-    &__table {
-      tbody {
-        width: 100%;
-      }
-    }
-  }
-}
-
-//------------------------------------------------------
-
-//======================================================
+/*=======================================================*/

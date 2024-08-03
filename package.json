@@ -1,7 +1,7 @@
 {
   "name": "cart_of_watches",
-  "version": "1.1.2",
-  "description": "Cart of Watches is an application written in 'JavaScript ES6' using 'OOP' using Classes.",
+  "version": "1.1.3",
+  "description": "Cart of Watches is an application written in 'JavaScript ES6' using 'OOP' using Classes",
   "main": "gulpfile.js",
   "type": "commonjs",
   "scripts": {
