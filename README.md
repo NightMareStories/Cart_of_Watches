@@ -41,7 +41,7 @@ npm i --global gulp-cli
 ### `And then from the folder with "gulpfile.js" install all the plugins from "package.json" using the command in your terminal:`
 
 ```
-npm i -D
+npm i
 ```
 
 ### **3. `After installing all the packages, you can run the application with the command`;**
@@ -83,7 +83,7 @@ gulp
 ### Let's get acquainted with the architecture of the project.
 
 &nbsp;
-### In the "development" version of the project, all application files are in the "#src" folder.
+### In the "development" version of the project, all application files are in the "src" folder.
 
 &nbsp;
 ### The catalog of goods will be displayed in the file "index.html", and the basket of goods will be displayed in the file "cart.html".
@@ -104,7 +104,7 @@ gulp
 ### The "scss" folder contains styles written in the "SCSS" preprocessor: "fonts.scss" - contains fonts for connection; "vars.scss" - contains variables for convenience; "main.scss" - contains the main styles of the application; "style.scss" - contains a mixin for connecting fonts and imports of all other files.
 
 &nbsp;
-### There are two files in the "components" folder: "generalHeader.scss" - styles for the main page header; "generalFooter.scss" - styles for the main page footer. These components are present in all my applications for a common header and footer, and are not part of the application.
+### There are two files in the "components" folder: "Header.scss" - styles for the main page header; "Footer.scss" - styles for the main page footer. These components are present in all my applications for a common header and footer, and are not part of the application.
 
 &nbsp;
 ### The "production" version of the project differs from the "development" version in a simple architecture. All "js" files are located in the "js" folder, and the "scss" folder is replaced by the "css" folder with already assembled and ready-made styles.

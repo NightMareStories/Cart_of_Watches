@@ -1,7 +1,7 @@
 {
   "name": "cart_of_watches",
-  "version": "1.1.0",
-  "description": "Cart of Watches is an application written in 'JavaScript ES6' using 'OOP' using Classes.",
+  "version": "1.1.1",
+  "description": "Cart of Watches is an application written in 'JavaScript ES6' using 'OOP' using Classes",
   "type": "commonjs",
   "scripts": {
     "clean": "rm -rf node_modules",
@@ -17,6 +17,7 @@
     "JavaScriptES6",
     "SCSS",
     "OOP",
+    "Gulp",
     "LocalStorage"
   ],
   "author": "NightMareStories",
@@ -24,5 +25,35 @@
   "bugs": {
     "url": "https://github.com/NightMareStories/Cart_of_Watches/issues"
   },
-  "homepage": "https://github.com/NightMareStories/Cart_of_Watches#readme"
+  "homepage": "https://github.com/NightMareStories/Cart_of_Watches#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "browser-sync": "^3.0.2",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-fonter": "^0.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-less": "^4.0.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svg-sprite": "^2.0.3",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf2woff2": "^4.0.1",
+    "gulp-uglify-es": "^2.0.0",
+    "gulp-webp": "^4.0.1",
+    "gulp-webp-css": "^1.1.0",
+    "gulp-webp-html": "^1.0.2",
+    "gulp-webpcss": "^1.1.1",
+    "sass": "^1.77.4",
+    "webp-converter": "2.2.3"
+  }
 }
