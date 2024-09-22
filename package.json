@@ -1,6 +1,6 @@
 {
   "name": "cart_of_watches",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Cart of Watches is an application written in 'JavaScript ES6' using 'OOP' using Classes",
   "type": "commonjs",
   "scripts": {
